@@ -1,0 +1,62 @@
+1)Introduction to NodeJs
+
+2)      Modules     Server 
+        http        http 
+        Mongodb     Mongoose
+                    mysql       
+        multer
+3)Http Server -Get,post...
+
+4)DataBases CRUD Operations
+
+        a)MongoDB
+        b)mysql
+        c)SQLServer
+        d)Oracle
+
+5) File system 
+
+6) Middlewares -
+        ex-
+        app.use((req, res, next) => {
+            // Some processing logic here   ---->Middleware 1
+            console.log('Middleware 1');
+            next(); // Pass control to the next middleware or route handler
+            });
+
+        app.use((req, res, next) => {
+            // More processing logic here    ----->Middleware 2
+            console.log('Middleware 2');
+            next(); // Pass control to the next middleware or route handler
+            });
+
+        app.get('/example', (req, res) => {
+            // This is a route handler      ----->Middleware 3
+            console.log('Route handler');
+            res.send('Hello, World!');
+            });
+
+7) Multer module -(Images uploading and downloading)
+
+8) socket.io Modules -(Chat Application)
+
+9)Token Based authentication (JWT simple Module)
+
+10) Integration of 3rd party REST API's--->like Spring boot , c# REST services
+ 
+11)Integration - 
+
+            -Heroku
+
+            -AWS
+
+13) MEAN Stack Application
+
+14) MERN Stack Application
+
+15) project - ecommerce applications
+
+
+
+
+

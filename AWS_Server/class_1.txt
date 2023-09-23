@@ -1,0 +1,21 @@
+Deploying Node Project to AWS Server
+=====================================
+-AWS is Cloud Server.
+-it's a paid server.(so if you want to use as free then just create an account on that and delete that after a use recently...otherwise it ll charge amount from your credit card)
+
+step to create AWS-server-
+
+    Step-1.
+        Create gitignore File
+
+            >npx gitignore node
+                
+                -ignores the "movement" of libraries(node_modules) to GitHub
+    step-2.
+        Download the express module
+            >yarn add express --save
+
+    step-3.
+        develop the REST services
+
+            server.js
